@@ -1,0 +1,22 @@
+appName: paymentservice
+appImage: gcr.io/google-samples/microservices-demo/paymentservice
+appVersion: v0.4.1
+appReplicas: 2
+containerPort: 50051
+containerEnvVars:
+  - name: PORT
+    value: "50051"
+  - name: ENABLE_TRACING
+    value: "false"
+  - name: ENABLE_DEBUGGER
+    value: "false"
+  - name: GOOGLE_CLOUD_PROFILER
+    value: "false"
+  - name: GOOGLE_APPLICATION_CREDENTIALS
+    value: ""
+  - name: DISABLE_PROFILER
+    value: "true"
+  - name: OTEL_SERVICE_NAME
+    value: "paymentservice"
+
+servicePort: 50051

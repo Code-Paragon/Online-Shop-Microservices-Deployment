@@ -1,0 +1,33 @@
+email-secret.yaml
+# Node & common package managers
+node_modules/
+package-lock.json
+yarn.lock
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor configs
+.idea/
+*.iml
+.vscode/
+
+# Helm & Kubernetes
+*.tgz
+charts/**/charts/
+*.bak
+*.tmp
+*.swp
+
+# Scripts output/logs
+*.log
+*.out
+
+# Sensitive files (just in case)
+*.env
+secrets.yaml
+*secret*.yaml
+
+# Helmfile specific (if templated locally)
+.helmfile

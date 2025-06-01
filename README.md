@@ -36,7 +36,7 @@ A comprehensive deployment solution for a cloud-native online shop application b
 
 ```bash
 ./install.sh
-
+```
 ---
 
 ## 🧹 Uninstallation

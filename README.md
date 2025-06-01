@@ -4,7 +4,7 @@ A comprehensive deployment solution for a cloud-native online shop application b
 
 ---
 
-## 🧩 Features
+##  Features
 
 - **Modular Microservices Deployment** via reusable Helm charts  
 - **Service-Specific Configurations** under `/values/` for each microservice  
@@ -14,7 +14,7 @@ A comprehensive deployment solution for a cloud-native online shop application b
 
 ---
 
-## 🚀 Microservices Included
+##  Microservices Included
 
 | Service                  | Port   | Description                            |
 |--------------------------|--------|----------------------------------------|
@@ -32,7 +32,7 @@ A comprehensive deployment solution for a cloud-native online shop application b
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 ./install.sh
@@ -40,7 +40,7 @@ A comprehensive deployment solution for a cloud-native online shop application b
 
 ---
 
-## 🧹 Uninstallation
+##  Uninstallation
 
 ```bash
 ./uninstall.sh
@@ -48,7 +48,7 @@ A comprehensive deployment solution for a cloud-native online shop application b
 
 ---
 
-## 📊 Monitoring
+##  Monitoring
 
 - `PrometheusRule` and `AlertmanagerConfig` defined under `/monitoring/`
 - Alerts for:
@@ -58,7 +58,7 @@ A comprehensive deployment solution for a cloud-native online shop application b
 
 ---
 
-## 🛠 Project Structure
+##  Project Structure
 
 ```text
 charts/                    # Helm charts for services and Redis
